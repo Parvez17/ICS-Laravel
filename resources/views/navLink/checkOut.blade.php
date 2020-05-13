@@ -1,0 +1,10 @@
+@extends('mainLayout')
+@section('content')
+@include('navLink.carousel')
+<br>
+<br>
+@include('home.subscribe')
+<br>
+<br>
+@endsection
+<b></b>

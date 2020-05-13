@@ -14,10 +14,41 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
 });
 
 Route::get('/home', function () {
     return view('home.index');
+});
+
+Route::get('/corporate', function () {
+    return view('navLink.corporate');
+});
+Route::get('/shop', function () {
+    return view('navLink.shop');
+});
+Route::get('/myaccount', function () {
+    return view('navLink.myAccount');
+});
+Route::get('/checkout', function () {
+    return view('navLink.checkOut');
+});
+Route::get('/cart', function () {
+    return view('navLink.cart');
+});
+Route::get('/wishlist', function () {
+    return view('navLink.wishList');
+});
+Route::get('/blog', function () {
+    return view('navLink.blog');
+});
+Route::get('/aboutus', function () {
+    return view('navLink.aboutUs');
+});
+Route::get('/contactus', function () {
+    return view('navLink.ContactUs');
+});
+Route::get('/design', function () {
+    return view('navLink.design');
 });
 

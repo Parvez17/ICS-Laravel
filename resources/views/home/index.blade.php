@@ -17,5 +17,10 @@
 <br>
 <br>
 @include('home.popular-product')
+<br>
+<br>
+@include('home.subscribe')
+<br>
+<br>
 @endsection
 <b></b>

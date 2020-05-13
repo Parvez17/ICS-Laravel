@@ -34,14 +34,9 @@
 <div class="card mb-3" style="max-width: 540px;">
     <div class="row no-gutters">
       <div class="col-md-4">
-
         <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="100%" width="100%"/>
-   
+            <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="100%" width="100%"/>  
         </svg>
-
-
-  
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -54,7 +49,10 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row no-gutters">
       <div class="col-md-4">
-        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" role="img"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="100%" width="100%"/>
+   
+        </svg>
   
       </div>
       <div class="col-md-8">
