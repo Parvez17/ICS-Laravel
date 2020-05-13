@@ -18,6 +18,7 @@
 <br>
 @include('home.popular-product')
 <br>
+@include('home.customer-comments')
 <br>
 @include('home.subscribe')
 <br>
