@@ -1,44 +1,30 @@
-nav .dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
 
-.firstNav .dropdown-toggle:after { content: none }
 
+
+    
   .header-col{
     margin-top:20%;
   }
 
+    .ft:after { content: none }
+
+    div.container li:hover> .dropdown-menu {
+      display: block;
+    }
+    nav div.dropdown:hover>ul.dropdown-menu {
+      display: block;
+    }
   .dropdown-submenu {
       position:relative;
-
-    }
-
-    .dropdown-submenu a::after {
-    
+  }
+  .dropdown-submenu>.dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top:-6px;
+  }
+  
+  /* rotate caret on hover */
+  .dropdown-menu > li > a:hover:after {
+      text-decoration: underline;
       transform: rotate(-90deg);
-    
-      position:absolute;
-    
-      right:6px;
-    
-      top: .8em;
-    
-    }
-    
-    .dropdown-submenu .dropdown-menu {
-    
-      top:0;
-    
-      left:100%;
-    
-      margin-left: .1rem;
-    
-      margin-right: .1rem;
-   
-    }
-    
+  } 

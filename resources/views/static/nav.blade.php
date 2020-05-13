@@ -3,28 +3,64 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container">
      <!-- nav items start-->
+   
      <div class="nav-item dropdown firstNav">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle ft" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="fas fa-bars"></i>
         Shop By Catagories
       </a>
-      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <div class="dropdown-submenu">
-          <li><a class="dropdown-item dropdown-toggle" href="#">Business Cards</a></li>
+      <ul class="dropdown-menu" id="dropDown" aria-labelledby="navbarDropdown">
+        
+          <li class="dropdown-submenu" id="dropdownSubmenu">
+            <a class="dropdown-item dropdown-toggle" href="#">Business Cards</a>
           <ul class="dropdown-menu">
-           <li>  <a class="dropdown-item" href="#">Stationary Items</a></li>
+           <li><a class="dropdown-item" href="#">Budget Business Cards</a></li>
            <li><a class="dropdown-item" href="#">Marketing Materials</a></li>
+           <li><a class="dropdown-item" href="#">Plastic Business Cards</a></li>
+           <li><a class="dropdown-item" href="#">Recycled Paper Business Cards</a></li>
           </ul>
-        </div>
-        
-        
-        <li><a class="dropdown-item" href="#">Stationary Items</a></li>
-        <li><a class="dropdown-item" href="#">Marketing Materials</a></li>
-        <li><a class="dropdown-item" href="#">Packaging</a></li>
-        <li><a class="dropdown-item" href="#">Promotional Items</a></li>
-        <li><a class="dropdown-item" href="#">View All Items</a></li>
+        </li>
+        <li class="dropdown-submenu" id="dropdownSubmenu">
+            <a class="dropdown-item dropdown-toggle" href="#">Stationary Items</a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">1</a></li>
+            <li><a class="dropdown-item" href="#">2</a></li>
+            <li><a class="dropdown-item" href="#">3</a></li>
+            <li><a class="dropdown-item" href="#">4</a></li>
+            </ul>
+        </li>
+        <li class="dropdown-submenu" id="dropdownSubmenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Marketing Materials</a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">11</a></li>
+          <li><a class="dropdown-item" href="#">22</a></li>
+          <li><a class="dropdown-item" href="#">33</a></li>
+          <li><a class="dropdown-item" href="#">44</a></li>
+          </ul>
+      </li>
+      <li class="dropdown-submenu" id="dropdownSubmenu">
+        <a class="dropdown-item dropdown-toggle" href="#">Packaging</a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">111</a></li>
+        <li><a class="dropdown-item" href="#">222</a></li>
+        <li><a class="dropdown-item" href="#">333</a></li>
+        <li><a class="dropdown-item" href="#">444</a></li>
+        </ul>
+    </li>
+    <li class="dropdown-submenu" id="dropdownSubmenu">
+      <a class="dropdown-item dropdown-toggle" href="#">Promotional Items</a>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">1111</a></li>
+      <li><a class="dropdown-item" href="#">2222</a></li>
+      <li><a class="dropdown-item" href="#">3333</a></li>
+      <li><a class="dropdown-item" href="#">4444</a></li>
       </ul>
-    </div>
+  </li>
+  <li><a class="dropdown-item" href="/shop">View All Items</a></li>
+  </ul>
+</div>
+
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
