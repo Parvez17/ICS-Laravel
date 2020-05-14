@@ -9,7 +9,7 @@
         <img class="card-img-top" style="height:100% !important" src="https://i.ibb.co/tZQHWzs/insta.png" alt="Card image" />
         <div class="card-img-overlay">
           
-          <a href="#" class="btn btn-primary">See Profile</a>
+          <a href="/shop" class="btn btn-primary">Print Brands</a>
         </div>
    
       </div>
@@ -21,7 +21,7 @@
         <img class="card-img-top" style=" height:100% !important" src="https://i.ibb.co/tZQHWzs/insta.png" alt="Card image">
         <div class="card-img-overlay">
           
-          <a href="#" class="btn btn-primary"> Profile</a>
+          <a href="/shop" class="btn btn-primary"> Shopping Card</a>
         </div>
     
       </div>
@@ -34,7 +34,7 @@
                 <img class="card-img-top" src="https://i.ibb.co/tZQHWzs/insta.png" alt="Card image">
                 <div class="card-img-overlay">
                   
-                  <a href="#" class="btn btn-primary"> Profile</a>
+                  <a href="/shop" class="btn btn-primary">Business Cards</a>
                 </div>
             
               </div>
@@ -46,7 +46,7 @@
                 <img class="card-img-top" src="https://i.ibb.co/tZQHWzs/insta.png" alt="Card image">
                 <div class="card-img-overlay">
                   
-                  <a href="#" class="btn btn-primary"> Profile</a>
+                  <a href="/shop" class="btn btn-primary">Shopping Bags</a>
                 </div>
             
               </div>

@@ -14,46 +14,57 @@
           <li class="dropdown-submenu" id="dropdownSubmenu">
             <a class="dropdown-item dropdown-toggle" href="#">Business Cards</a>
           <ul class="dropdown-menu">
-           <li><a class="dropdown-item" href="#">Budget Business Cards</a></li>
-           <li><a class="dropdown-item" href="#">Marketing Materials</a></li>
-           <li><a class="dropdown-item" href="#">Plastic Business Cards</a></li>
-           <li><a class="dropdown-item" href="#">Recycled Paper Business Cards</a></li>
+           <li><a class="dropdown-item" href="/budgetbusinesscards">Budget Business Cards</a></li>
+           <li><a class="dropdown-item" href="/premiumstandardbc">Premium Standard Business Cards</a></li>
+           <li><a class="dropdown-item" href="/plasticbusinesscards">Plastic Business Cards</a></li>
+           <li><a class="dropdown-item" href="/recycledpaperbusinesscards">Recycled Paper Business Cards</a></li>
           </ul>
         </li>
         <li class="dropdown-submenu" id="dropdownSubmenu">
             <a class="dropdown-item dropdown-toggle" href="#">Stationary Items</a>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">1</a></li>
-            <li><a class="dropdown-item" href="#">2</a></li>
-            <li><a class="dropdown-item" href="#">3</a></li>
-            <li><a class="dropdown-item" href="#">4</a></li>
+            <li><a class="dropdown-item" href="/stationarypackeges">Stationary Packeges</a></li>
+            <li><a class="dropdown-item" href="/letterhead">Letterhead/Pad</a></li>
+            <li><a class="dropdown-item" href="envelope">Envelope</a></li>
+            <li><a class="dropdown-item" href="/moneyreciept">Money Reciept</a></li>
+            <li><a class="dropdown-item" href="/chalan-voucher">Chalan/Voucher</a></li>
+            <li><a class="dropdown-item" href="/slip-pad">Slip Pad</a></li>
             </ul>
         </li>
         <li class="dropdown-submenu" id="dropdownSubmenu">
           <a class="dropdown-item dropdown-toggle" href="#">Marketing Materials</a>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">11</a></li>
-          <li><a class="dropdown-item" href="#">22</a></li>
-          <li><a class="dropdown-item" href="#">33</a></li>
-          <li><a class="dropdown-item" href="#">44</a></li>
+          <li><a class="dropdown-item" href="/a4notebooks">A4 Notebooks</a></li>
+          <li><a class="dropdown-item" href="/a5notebooks">A5 Notebooks</a></li>
+          <li><a class="dropdown-item" href="/mug">Mug</a></li>
+          <li><a class="dropdown-item" href="/printedpen">Printed Pen</a></li>
+          <li><a class="dropdown-item" href="/paperfolders">Paper Folders</a></li>
+          <li><a class="dropdown-item" href="/hangtag">Hang Tag</a></li>
+          <li><a class="dropdown-item" href="/printedpoloshirt">Printed Polo Shirt</a></li>
+          <li><a class="dropdown-item" href="/printedroundnecktshirt">Printed Roundneck Tshirt</a></li>
+          <li><a class="dropdown-item" href="/tissuebox">Tissue Box</a></li>
+          <li><a class="dropdown-item" href="/resturentitems">Restaurent Items</a></li>
           </ul>
       </li>
       <li class="dropdown-submenu" id="dropdownSubmenu">
         <a class="dropdown-item dropdown-toggle" href="#">Packaging</a>
         <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">111</a></li>
-        <li><a class="dropdown-item" href="#">222</a></li>
-        <li><a class="dropdown-item" href="#">333</a></li>
-        <li><a class="dropdown-item" href="#">444</a></li>
+        <li><a class="dropdown-item" href="/papershoppingbag">Paper Shopping Bag</a></li>
+        <li><a class="dropdown-item" href="/pizzabox">Pizza Box</a></li>
+        <li><a class="dropdown-item" href="/plasticshoppingbag">Plastic Shopping Bag</a></li>
+        <li><a class="dropdown-item" href="/plasticmailer">Plastic Mailer/Courier Bag</a></li>
+        <li><a class="dropdown-item" href="/shoebox">Shoe Box</a></li>
+        <li><a class="dropdown-item" href="/burgerbox">Burger Box</a></li>
+        <li><a class="dropdown-item" href="/parcelbox">Parcel Box</a></li>
         </ul>
     </li>
     <li class="dropdown-submenu" id="dropdownSubmenu">
       <a class="dropdown-item dropdown-toggle" href="#">Promotional Items</a>
       <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">1111</a></li>
-      <li><a class="dropdown-item" href="#">2222</a></li>
-      <li><a class="dropdown-item" href="#">3333</a></li>
-      <li><a class="dropdown-item" href="#">4444</a></li>
+      <li><a class="dropdown-item" href="/papersticker">Paper Sticker</a></li>
+      <li><a class="dropdown-item" href="/xbanner">X Banner</a></li>
+      <li><a class="dropdown-item" href="/brochure">Brochure</a></li>
+      <li><a class="dropdown-item" href="a4leaflet">A4 Leaflet</a></li>
       </ul>
   </li>
   <li><a class="dropdown-item" href="/shop">View All Items</a></li>
