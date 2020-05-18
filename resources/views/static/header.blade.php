@@ -2,8 +2,8 @@
     <div class="row align-items-center" style="display:flex">
     <div class="col-sm-3">
     <a href="/home">
-        <img alt="futurestartup.com" src="/image/download.jpg"
-        width="70" height="50">
+        <img alt="TR Online Printing press" src="/image/logo.jpg"
+        width="90%" height="90">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;
     </div>
     
@@ -11,20 +11,20 @@
     <div class="col-sm-3">
         <div class="header-col">
             <h6><i class="fas fa-phone"></i></i> Phone</h6>
-            <p>+88 01684848104</p>
+            <p>+88 01784385510</p>
         </div>
     
         </div>
-        <div class="col-sm-3" >
+        <div class="col-sm-3">
         <div class="header-col">
             <h6><i class="fas fa-map-marker-alt"></i> Address</h6>
-            <p>Banani, Dhaka</p>
+            <p>14 no. Gedda , ulail karnapara, savar</p>
         </div>
         </div>
         <div class="col-sm-3">
         <div class="header-col">
-            <h6><i class="far fa-clock"></i> Working Time</h6>
-            <p>Sat - Thus: 9am - 7pm</p>
+            <h6><i class="fas fa-envelope-square"></i> Email Adress</h6>
+            <p>Tronlineprintingpress@gmail.com</p>
         </div>
         </div>
  

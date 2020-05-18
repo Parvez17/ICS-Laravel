@@ -34,7 +34,7 @@
                 <img class="card-img-top" src="https://i.ibb.co/tZQHWzs/insta.png" alt="Card image">
                 <div class="card-img-overlay">
                   
-                  <a href="/shop" style="color:white;font-size:4vw;"> Shopping Card3</a>
+                  <a href="/shop" style="color:white;font-size:2vw;"> Shopping Card3</a>
                 </div>
             
               </div>
@@ -46,7 +46,7 @@
                 <img class="card-img-top" src="https://i.ibb.co/tZQHWzs/insta.png" alt="Card image">
                 <div class="card-img-overlay">
                   
-                  <a href="/shop" style="color:white;font-size:4vw;"> Shopping Card4</a>
+                  <a href="/shop" style="color:white;font-size:2vw;"> Shopping Card4</a>
                 </div>
             
               </div>

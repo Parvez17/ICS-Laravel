@@ -5,8 +5,8 @@
      <!-- nav items start-->
 
      <a class="navbar-brand mx-0" style="display: none" href="/home">
-      <img alt="futurestartup.com" src="/image/download.jpg"
-      width="40" height="auto">
+      <img alt="TR Online Printing press" src="/image/logo.jpg"
+      width="70" height="auto">
   </a>
    
      <div class="nav-item dropdown firstNav">

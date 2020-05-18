@@ -2,7 +2,7 @@
     <br><br><br>
     <h2 style="text-align: center"> What Our Customer Are Saying<h2><br><br>
     <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4">
             <button type="button" class="btn btn-default" aria-label="Left Align" >
                 <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Left
               </button>
@@ -11,7 +11,7 @@
                 <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Right
               </button>
         </div>
-        <div class="col-8">
+        <div class="col-sm-8">
             
             <div class="card">
                 <div class="card-body">
