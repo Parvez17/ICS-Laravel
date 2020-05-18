@@ -1,1 +1,70 @@
 
+@media screen and (max-width: 767px) {
+      #information {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+    .fHide{
+      display: none;
+    }
+
+    .carousel-inner > .carousel-item> img {
+        max-height: 20%;
+        height: 20% !important;
+      }
+
+    .navbar-light .navbar-toggler{
+        position: absolute;
+        left:0;
+    }
+
+    .firstnav{
+     display: none;
+    }
+
+    .navbar-brand{
+        display: block !important;
+    }
+
+    .miniCard{
+      padding-left: 0px;
+    }
+
+    
+  }
+
+    
+  @media screen and (min-width: 768px) {
+    .carousel-inner > .carousel-item> img {
+        max-height: 60%;
+        height: 60% !important;
+      }
+      
+      .secondCol{
+        padding-left: 0px;
+      }
+
+      .miniCard1{
+        padding-right:1px;
+      }
+
+      .miniCard2{
+        padding-left: 1px;
+      }
+     
+    }
+    
+  
+    .card-body > p{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+
+
+  

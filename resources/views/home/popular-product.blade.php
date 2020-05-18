@@ -1,7 +1,8 @@
 <div class="container">
-<h1 style="text-align: center"> We are Featured In </h1>
+  <div class="fHide">
+<h1  style="text-align: center"> We are Featured In </h1>
 <br>
-<div class="row" style="display:flex">
+<div class="row fHide" style="display:flex">
     <a href="https://www.priyo.com/external-news/476047">
         <img alt="priyo.com" src="/image/Priyo_Logo.jpg"
         width="210" height="70">
@@ -26,6 +27,8 @@
 <br>
 <br>
 <br>
+</div>
+
 <h1 style="text-align: center"> Popular Product</h1>
 <p style="text-align: center"> See our popular products</p>
 <br>

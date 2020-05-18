@@ -1,14 +1,21 @@
 
   
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-md navbar-light bg-light  sticky-top">
   <div class="container">
      <!-- nav items start-->
+
+     <a class="navbar-brand mx-0" style="display: none" href="/home">
+      <img alt="futurestartup.com" src="/image/download.jpg"
+      width="40" height="auto">
+  </a>
    
      <div class="nav-item dropdown firstNav">
       <a class="nav-link dropdown-toggle ft" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="fas fa-bars"></i>
         Shop By Catagories
       </a>
+
+
       <ul class="dropdown-menu" id="dropDown" aria-labelledby="navbarDropdown">
         
           <li class="dropdown-submenu" id="dropdownSubmenu">

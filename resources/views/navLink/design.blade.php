@@ -4,7 +4,7 @@
 <br><br>
 <div class="container">
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <h1> Design </h1>
             <ul>
                 <li>24-48 hour turnaround</li>
@@ -13,13 +13,13 @@
                 </ul>
             </ul>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <img class="d-block w-100" src="/image/slide1.jpg" alt="First slide">
         </div>
     </div>
     <br><br>
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
             <div class="card">
                 <div class="card-body">
                   <p style="text-align: center"><i class="fas fa-th-list" style="font-size:60px"></i> <p>
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
             <div class="card">
                 <div class="card-body">
                   <p style="text-align: center"><i class="fas fa-th-list" style="font-size:60px"></i> <p>
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
             <div class="card">
                 <div class="card-body">
                   <p style="text-align: center"><i class="fas fa-th-list" style="font-size:60px"></i> <p>
@@ -52,27 +52,27 @@
     <br> <br>
     
     <div class="row" style="display:flex">
-        <div class="card; col-3" style="width:400px">
+        <div class="card col-md-3 col-sm-6">
             <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
             <div class="card-body">
                 <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
             </div>
         </div>
           
-        <div class="card; col-3" style="width:400px">
+        <div class="card col-md-3 col-sm-6">
             <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
             <div class="card-body">
                 <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
             </div>
         </div>
           
-        <div class="card; col-3" style="width:400px">
+        <div class="card col-md-3 col-sm-6">
             <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
             <div class="card-body">
                 <a href="#" class="">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
             </div>
         </div>
-        <div class="card; col-3" style="width:400px">
+        <div class="card col-md-3 col-sm-6" >
             <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
             <div class="card-body">
                 <a href="#" class="">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>

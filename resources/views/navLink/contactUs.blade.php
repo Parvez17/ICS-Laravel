@@ -4,7 +4,7 @@
 <br><br>
 <div class="container">
     <div class="row">
-    <div class="col-6">
+    <div class="col-md-6 col-sm-12">
         <h3> Get In Touch</h3>
         <br>
         <p> Contact With Us for any Query.</p>
@@ -14,7 +14,7 @@
         <p><i class="fas fa-clock"  style="color: blue"></i>&nbsp; Sat - Thur : 9am - 7pm</p>
 
     </div>
-    <div class="col-6">
+    <div class="col-md-6 col-sm-12">
         <h3> Send Message</h3>
         <br>
         

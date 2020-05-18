@@ -5,17 +5,20 @@
 <br>
 <div class="container">
 <div class="row" style="display:flex">
-    <div class="card; col-4" style="width:200px">
+    <div class="card col-md-4 col-sm-6 col-sm-12 mb-3">
         <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
         <div class="card-body">
             <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
         </div>
     </div>
-    <div class="card; col-4" style="width:200px">
+    <div class="card col-md-4 col-sm-6 mb-3" >
         <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
         <div class="card-body">
             <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
         </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-3">
+        @include('navLink.catagories')   
     </div>
 </div>
 <br><br>

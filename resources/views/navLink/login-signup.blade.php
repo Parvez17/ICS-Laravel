@@ -1,7 +1,7 @@
 <br>
 <div class="container">
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
                 <H1> LOGIN </H1>            
             <br><br>
             <div class="border border-secondary" style="padding: 50px">
@@ -21,7 +21,7 @@
               </form>
             </div>           
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <H1> REGISTER </H1>            
         <br><br>
         <div class="border border-secondary" style="padding: 50px" >

@@ -4,7 +4,7 @@
 <br> <br> <br> <br>
 <div class="container">
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
         <div class="input-group">
             <input class="form-control py-2" type="search" placeholder="Search" id="example-search-input">
             <span class="input-group-append">
@@ -23,7 +23,7 @@
         <button type="button" class="btn btn-primary">Lamination</button>
         <button type="button" class="btn btn-primary">Trade</button>
         </div>
-        <div class="col-8">
+        <div class="col-md-8 col-sm-12">
             <div class="row">
                 <p> Posted in Lessons by Rubikadmin</p>&nbsp;
                 <p>|</p>&nbsp;

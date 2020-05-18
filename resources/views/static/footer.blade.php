@@ -18,7 +18,7 @@
         </ul>
     </div>
     
-    <div class="col-xs-12 col-sm-6 col-md-2">
+    <div class="col-xs-12 col-sm-6 col-md-4">
     <div class="widget no-box">
     <h5 class="widget-title" style="color: white;">About Us<span></span></h5>
     <ul class="thumbnail-widget">
@@ -47,7 +47,7 @@
     </div>
     </div>
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="col-xs-12 col-sm-6 col-md-4">
     <div class="widget no-box">
     <h5 class="widget-title" style="color: white">Get In Touch<span></span></h5>
    
@@ -58,7 +58,7 @@
     </div>
     </div>
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="col-xs-12 col-sm-6 col-md-4">
     
     <div class="widget no-box">
     <h5 class="widget-title" style="color: white">Recent Works<span></span></h5>

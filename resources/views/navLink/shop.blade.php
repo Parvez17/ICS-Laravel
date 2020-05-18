@@ -5,18 +5,19 @@
 <br>
 <br>
 <div class="row">
-    <div class="col-4">
-        <p>Showing 1–12 of 137 results</p>
+    <div class="col-md-6 col-sm-12">
+        <p style="text-align: center">Showing 1–12 of 137 results</p>
     </div>
-    <div class="col-4" style="text-align: right">
-        <select class="browser-default custom-select" style="width:200;">
+    <div class="row col-md-6 col-sm-12">
+    <div class="col-md-5 col-sm-5" style="text-align: right">
+        <select class="browser-default custom-select">
             <option selected="">Sort By</option>
             <option value="1">Sort By Popularity</option>
             <option value="2">Sort By Latest</option>
             <option value="3">Sort By Price </option>
           </select>
     </div>
-    <div class="input-group col-md-4">
+    <div class="input-group col-md-5 col-sm-5">
         <input class="form-control py-2" type="search" placeholder="Search" id="example-search-input">
         <span class="input-group-append">
           <button class="btn btn-outline-secondary" type="button">
@@ -24,10 +25,11 @@
           </button>
         </span>
   </div>
+    </div>
 </div>
 <br> <br>
 <div class="row">
-    <div class="col-8">
+    <div class="col--md-8 col-sm-12">
         <div class="row">
             <div class="col-6">
             <div class= "card">

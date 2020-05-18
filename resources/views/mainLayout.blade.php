@@ -3,8 +3,7 @@
  <head>
    @include('static.head')
  </head>
- <body>
-
+ <body class="container">
 @include('static.header')
 @include('static.nav-script')
 @include('static.nav')
