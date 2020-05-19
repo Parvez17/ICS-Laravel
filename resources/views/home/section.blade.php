@@ -5,7 +5,7 @@
               <div class="card shadow p-3 mb-2 bg-white rounded">
                 <div class="card-body" style="height: 20%">
                   <p style="text-align: center"><i class="fas fa-home" style="font-size:60px;color: blue"></i></p>
-                  <h6 class="card-title" style="text-align: center">Home    Delivery</h6>
+                  <h6 class="card-title" style="text-align: center">Home  Delivery</h6>
                   <p class="card-text" style="text-align: center">After print we deliver your product to your door step.</p>
                 </div>
               </div>

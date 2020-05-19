@@ -2,7 +2,7 @@
     <div class="row align-items-center" style="display:flex">
     <div class="col-sm-3">
     <a href="/home">
-        <img alt="TR Online Printing press" src="/image/logo.jpg"
+        <img alt="TR Online Printing press" src="/image/logo.JPG"
         width="90%" height="90">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;
     </div>

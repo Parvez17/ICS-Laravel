@@ -5,7 +5,13 @@
 <script>
     $(function () {
   $('[data-toggle="tooltip"]').tooltip()
-})
+});
+
+$(document).ready(function() {
+  $('.navbar-toggler , .offButton').on('click', function() {
+    $('.mobileMenu, .offButton').toggleClass('open');
+  });
+});
 
 
 // $('nav .dropdown').hover(function() {
