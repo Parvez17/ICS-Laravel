@@ -33,18 +33,18 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
             <div class= "card">
-            <img class="card-img-top" src="/image/memo/66.jpg" alt="Card image cap" style="height:180px">
+            <img class="card-img-top" src="/image/tissue-box/TBox1.JPG" alt="Card image cap" style="height:180px">
             <div class="card-body">
-            <p class="card-text">Memo 1</p>
+            <p class="card-text">Tissue Box 1</p>
             <p class="card-text">Price BDT 100</p>
             </div>
         </div>
         </div>
         <div class="col-md-6 col-sm-12" style="height:30%">
         <div class= "card">
-            <img class="card-img-top" src="/image/memo/55.JPG" alt="Card image cap" style="height:180px">
+            <img class="card-img-top" src="/image/tissue-box/TBox2.JPG" alt="Card image cap" style="height:180px">
             <div class="card-body">
-            <p class="card-text">Memo 2</p>
+            <p class="card-text">Tissue Box 2</p>
             <p class="card-text">Price BDT 500</p>
             </div>
         </div>

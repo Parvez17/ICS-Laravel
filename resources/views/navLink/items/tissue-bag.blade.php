@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
             <div class= "card">
-            <img class="card-img-top" src="/image/tissue-box/TBox1.JPG" alt="Card image cap" style="height:180px">
+            <img class="card-img-top" src="/image/tissue-bag/IMG_7771.JPG" alt="Card image cap" style="height:180px">
             <div class="card-body">
             <p class="card-text">Tissue Bag 1</p>
             <p class="card-text">Price BDT 100</p>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-6 col-sm-12" style="height:30%">
         <div class= "card">
-            <img class="card-img-top" src="/image/tissue-box/TBox2.JPG" alt="Card image cap" style="height:180px">
+            <img class="card-img-top" src="/image/tissue-bag/IMG_7772.JPG" alt="Card image cap" style="height:180px">
             <div class="card-body">
             <p class="card-text">Tissue Bag 2</p>
             <p class="card-text">Price BDT 500</p>

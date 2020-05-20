@@ -15,29 +15,37 @@
   <br>
   <div class="row" style="display:flex">
   <div class="card col-md-3 col-sm-6 col-xs-12 mb-3" style="border:0px">
-    <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
+    <img class="card-img-top" src="/image/hangtag/IMG_8699.jpg" alt="Card image" style="height: 150px">
     <div class="card-body">
-      <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
+      <a href="/hangtag">HANGTAG/WAISTAG/PRICE TAG
+        Paper: art card/solid card</a>
     </div>
   </div>
 
   <div class="card col-md-3 col-sm-6 col-xs-12 mb-3" style="border:0px">
-    <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
+    <img class="card-img-top" src="/image/business-card/77.JPG" alt="Card image" style="height: 150px">
     <div class="card-body">
-      <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
+      <a href="/businesscard">Size : 3.25 * 2 inch.
+        Paper : 300 GSM
+        Color: Multi-color</a>
     </div>
   </div>
 
   <div class="card col-md-3 col-sm-6 col-xs-12 mb-3" style="border:0px">
-    <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
+    <img class="card-img-top" src="/image/envelope/IMG_0282.JPG" alt="Card image" style="height: 150px">
     <div class="card-body">
-      <a href="#" >3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
+      <a href="/envelope" >Envelope.
+        Size: 9.56 inch * 4.13 inch.
+        Paper: 100 Gsm offset.
+        Print: multi-color</a>
     </div>
   </div>
   <div class="card col-md-3 col-sm-6 col-xs-12 mb-3" style="border:0px">
-    <img class="card-img-top" src="image/paperbag.jpg" alt="Card image">
+    <img class="card-img-top" src="/image/tissue-box/TBox1.JPG" alt="Card image" style="height: 150px">
     <div class="card-body">
-      <a href="#">3 Color 170gsm Art Paper Large Wide Shopping Bag</a>
+      <a href="/tissue-box">Tissue Box. 
+        Print: Multiple color.
+      </a>
     </div>
   </div>
   </div>

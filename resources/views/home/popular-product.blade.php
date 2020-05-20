@@ -28,11 +28,11 @@
 <br>
 <br>
 <div class="row" style="display:flex">
-<div class="card md-6" style="max-width: 540px;">
+<div class="card col-md-6" style="max-width: 540px;" style="border: 0">
     <div class="row no-gutters">
       <div class="col-md-4">
         <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="100%" width="100%"/>  
+            <image href="/image/business-card/10.JPG" height="100%" width="100%"/>  
         </svg>
       </div>
       <div class="col-md-8">
@@ -44,11 +44,11 @@
       </div>
     </div>
   </div>
-  <div class="card md-6" style="max-width: 540px;">
+  <div class="card col-md-6" >
     <div class="row no-gutters">
       <div class="col-md-4">
         <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <image href="https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png" height="100%" width="100%"/>  
+            <image href="/image/business-card/77.JPG" height="100%" width="100%"/>  
         </svg>
       </div>
       <div class="col-md-8">
