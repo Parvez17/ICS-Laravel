@@ -47,14 +47,14 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
   </div>
     </li>
 
-    <li class="nav-item active">
-      <a class="nav-link" href="/home">HOME <span class="sr-only">(current)</span></a>
+    <li class="nav-item  {{Request::segment(1) === 'home' ? 'active' : null}}">
+      <a class="nav-link" href="{{url("home")}}">HOME <span class="sr-only">(current)</span></a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/corporate">CORPORATE</a>
+    <li class="nav-item {{Request::segment(1) === 'corporate' ? 'active' : null}}">
+      <a class="nav-link" href="{{url("corporate")}}">CORPORATE</a>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="/shop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <li class="nav-item dropdown {{Request::segment(1) === 'shop' ? 'active' : null}}">
+      <a class="nav-link dropdown-toggle" href="{{url("shop")}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         SHOP
       </a>
       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -65,14 +65,14 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
         <li><a class="dropdown-item" href="/wishlist">Wishlist</a></li>
       </ul>
     </li>
-    <li class="nav-item active">
-        <a class="nav-link" href="blog">BLOG <span class="sr-only">(current)</span></a>
+    <li class="nav-item  {{Request::segment(1) === 'blog' ? 'active' : null}}">
+        <a class="nav-link" href="{{url("blog")}}">BLOG <span class="sr-only">(current)</span></a>
     </li> 
-    <li class="nav-item active">
-        <a class="nav-link" href="aboutus">ABOUT US <span class="sr-only">(current)</span></a>
+    <li class="nav-item {{Request::segment(1) === 'aboutus' ? 'active' : null}}">
+        <a class="nav-link" href="{{url("aboutus")}}">ABOUT US <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           CONTACT US
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -80,10 +80,12 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
         </div>
     </li>    
   </ul>
-  <li class="nav-item active">
-    <a class="nav-link" href="aboutus"><i class="fal fa-shopping-cart"></i> <span class="sr-only">(current)</span></a>
-</li>
-  
+  <span class="nav-item ">
+    <a class="nav-link" href="aboutus"><i class="fas fa-shopping-cart"></i> <span class="sr-only">(current)</span></a>
+  </span>
+  <span class="nav-item ">
+    <a class="nav-link" href="aboutus"><i class="far fa-user"></i></i> <span class="sr-only">(current)</span></a>
+  </span>
   </div>
 </div>
 </nav>

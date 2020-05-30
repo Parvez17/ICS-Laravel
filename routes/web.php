@@ -29,6 +29,11 @@ Route::get('/corporate', function () {
 Route::get('/shop', function () {
     return view('navLink.shop');
 });
+//registration
+Route::post("/registration",'RegistrationController@Index');
+///login
+Route::post("/login",'LoginController@Index');
+
 Route::get('/myaccount', function () {
     return view('navLink.myAccount');
 });
@@ -99,3 +104,5 @@ Route::get('/tissue-bag', function () {
 Route::get('/tissue-box', function () {
     return view('navLink.items.tissue-box');
 });
+
+
