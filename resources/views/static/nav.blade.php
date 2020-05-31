@@ -8,6 +8,7 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
    <img alt="TR Online Printing press" src="/image/logo.JPG"
    width="70" height="auto">
  </a>
+ 
   <button class="navbar-toggler " type="button">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -80,13 +81,16 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
         </div>
     </li>    
   </ul>
-  <span class="nav-item ">
-    <a class="nav-link" href=""><i class="fas fa-shopping-cart"></i> <span class="sr-only">(current)</span></a>
-  </span>
-  <span class="nav-item ">
-    <a class="nav-link" href="/myaccount"><i class="far fa-user"></i></i> <span class="sr-only">(current)</span></a>
-  </span>
+ 
   </div>
+ 
+    <span class="nav-item " style="right:40px;position: absolute;">
+      <a class="nav-link" href=""><i class="fas fa-shopping-cart"></i> <span class="sr-only">(current)</span></a>
+    </span>
+    <span class="nav-item " style="right:1px;position: absolute;">
+      <a class="nav-link" href="/myaccount"><i class="far fa-user"></i></i> <span class="sr-only">(current)</span></a>
+    </span>
+  
 </div>
 </nav>
 <div class="overlay"></div>

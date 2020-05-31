@@ -29,6 +29,22 @@
       transform: rotate(-90deg);
   } 
 
+  @media(min-width:992px){
+    a.nav-link{
+      padding:15px;
+      margin-left:20px;
+      margin-right:20px;
+      font-size:13px;
+    }
+  
+    a#navbarDropdown{
+      margin-left:20px;
+      margin-right:20px;
+      padding:15px;
+      font-size:13px;
+    }
+  }
+
   @media (max-width: 991px) {
     .mobileMenu {
       -webkit-transform: translateX(-100%);
@@ -68,21 +84,11 @@
       display: block;
       z-index: 1029;
     }
+
+    
+ 
   }
 
-  a.nav-link{
-    padding:15px;
-    margin-left:20px;
-    margin-right:20px;
-    font-size:13px;
-  }
-
-  a#navbarDropdown{
-    margin-left:20px;
-    margin-right:20px;
-    padding:15px;
-    font-size:13px;
-  }
   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
     color:blue;
   }

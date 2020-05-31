@@ -12,11 +12,11 @@
   </div>
   <br>
   @endif
-    <div class="row">
+    <div class="row display-flex">
         <div class="col-md-6 col-sm-12">
                 <H1> LOGIN </H1>            
             <br><br>
-            <div class="border border-secondary" style="padding: 50px; height:330">
+            <div class="border-custom" style="padding: 50px">
             <form  action="/login" method="POST">
               <input type="hidden" name="_token" value="{{csrf_token()}}" />
                 <div class="form-group">
@@ -34,10 +34,11 @@
               </form>
             </div>           
         </div>
+        <br>
         <div class="col-md-6 col-sm-12">
             <H1> REGISTER </H1>            
         <br><br>
-        <div class="border border-secondary" style="padding: 50px; height:330" >
+        <div class="border-custom" style="padding: 50px" >
         <form  action="/registration" method="POST">
           <input type="hidden" name="_token" value="{{csrf_token()}}" />
             <div class="form-group">
