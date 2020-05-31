@@ -25,7 +25,8 @@
         </div>
         <div class="col-md-8 col-sm-12">
             <div class="row">
-                <p> Posted in Lessons by Rubikadmin</p>&nbsp;
+                &nbsp;&nbsp;
+                <p> Posted in Lessons by TR Online Prints Admin</p>&nbsp;
                 <p>|</p>&nbsp;
                 <p> <i class="far fa-calendar-alt" style="color: blue"></i>May 2020</p>
             </div>
