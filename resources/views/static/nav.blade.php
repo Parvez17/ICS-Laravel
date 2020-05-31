@@ -81,10 +81,10 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
     </li>    
   </ul>
   <span class="nav-item ">
-    <a class="nav-link" href="aboutus"><i class="fas fa-shopping-cart"></i> <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href=""><i class="fas fa-shopping-cart"></i> <span class="sr-only">(current)</span></a>
   </span>
   <span class="nav-item ">
-    <a class="nav-link" href="aboutus"><i class="far fa-user"></i></i> <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="/myaccount"><i class="far fa-user"></i></i> <span class="sr-only">(current)</span></a>
   </span>
   </div>
 </div>
