@@ -49,7 +49,7 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
     </li>
 
     <li class="nav-item  {{Request::segment(1) === 'home' ? 'active' : null}}">
-      <a class="nav-link" href="{{url("home")}}">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="{{url("home")}}"><b>HOME</b> <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item {{Request::segment(1) === 'corporate' ? 'active' : null}}">
       <a class="nav-link" href="{{url("corporate")}}">CORPORATE</a>
