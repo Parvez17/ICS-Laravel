@@ -28,27 +28,52 @@
     </div>
 </div>
 <br> <br>
-<div class="row">
+{{-- <div class="row">
     <div class="col-md-8 col-sm-12">
         <div class="row">
             <div class="col-md-6 col-sm-12">
             <div class= "card">
-            <img class="card-img-top" src="/image/business-card/10.JPG" alt="Card image cap" style="height:180px">
+            <a class="card-img-link" href="/product"><img class="card-img-top" src="/image/business-card/10.JPG" alt="Card image cap" style="height:180px"></a>
             <div class="card-body">
-            <p class="card-text">Memo 1</p>
+            <a class="card-img-link" href="/product"><p class="card-text">Memo 1</p></a>
             <p class="card-text">Price BDT 100</p>
             </div>
         </div>
         </div>
         <div class="col-md-6 col-sm-12" style="height:30%">
         <div class= "card">
-            <img class="card-img-top" src="/image/business-card/IMG_0492.PNG" alt="Card image cap" style="height:180px">
+            <a class="card-img-link" href="/product"><img class="card-img-top" src="/image/business-card/IMG_0492.PNG" alt="Card image cap" style="height:180px"></a>
             <div class="card-body">
-            <p class="card-text">Memo 2</p>
+            <a class="card-img-link" href="/product"><p class="card-text">Memo 2</p></a>
             <p class="card-text">Price BDT 500</p>
             </div>
         </div>
         </div>
+        
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+     @include('navLink.catagories')   
+    </div>
+</div> --}}
+
+<div class="row">
+    <div class="col-md-8 col-sm-12">
+        <div class="row">
+            @foreach ($data as $p)
+                
+            
+            <div class="col-md-6 col-sm-12">
+            <div class= "card">
+            <a class="card-img-link" href="/product/{{$p->PID}}"><img class="card-img-top" src="/image/business-card/10.JPG" alt="Card image cap" style="height:180px"></a>
+            <div class="card-body">
+            <a class="card-img-link" href="/product/{{$p->PID}}"><p class="card-text">{{$p->name}}</p></a>
+            <p class="card-text">Price BDT {{$p->price}}</p>
+            </div>
+        </div>
+        </div>
+        @endforeach
+        
         
         </div>
     </div>

@@ -59,9 +59,9 @@ Route::get('/design', function () {
     return view('navLink.design');
 });
 ///Items
-Route::get('/business-card', function () {
-    return view('navLink.items.businesscard');
-});
+// Route::get('/business-card', function () {
+//     return view('navLink.items.businesscard');
+// });
 Route::get('/envelope', function () {
     return view('navLink.items.envelope');
 });
@@ -104,5 +104,10 @@ Route::get('/tissue-bag', function () {
 Route::get('/tissue-box', function () {
     return view('navLink.items.tissue-box');
 });
+Route::get('/product/{pid}','AddProduct@GetProductByID');
+
+Route::get('/add/product','AddProduct@Add');
+Route::get('/get/product','AddProduct@GetProducts');
+Route::post('/cart/add','cartController@Add');
 
 

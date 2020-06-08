@@ -29,21 +29,42 @@ class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start st
         </a>
   
       <ul class="dropdown-menu" id="dropDown" aria-labelledby="navbarDropdown">
-        <li><a class="dropdown-item" href="/business-card">Business Card</a></li>
-        <li><a class="dropdown-item" href="/envelope">Envelope</a></li>
-        <li><a class="dropdown-item" href="/money-receipt">Money receipt</a></li>
-        <li><a class="dropdown-item" href="/note-pad">Note pad</a></li>
-        <li><a class="dropdown-item" href="/register">Register</a></li>
-        <li><a class="dropdown-item" href="/memo">Memo</a></li>
-        <li><a class="dropdown-item" href="/magazine">Magazine/brushier/leaflet</a></li>
-        <li><a class="dropdown-item" href="/hangtag">Hangtag/waist tag/price tag</a></li>
-        <li><a class="dropdown-item" href="/pvc">PVC</a></li>
-        <li><a class="dropdown-item" href="/file-folder">File folder</a></li>
-        <li><a class="dropdown-item" href="/calendar">Calendar(wall/desk/pocket)</a></li>
-        <li><a class="dropdown-item" href="/dairy">Dairy</a></li>
-        <li><a class="dropdown-item" href="/voucher">Voucher</a></li>
-        <li><a class="dropdown-item" href="/tissue-bag">Tissue bag</a></li>
-        <li><a class="dropdown-item" href="/tissue-box">Tissue box</a></li>
+        <li class="dropdown-submenu" id="dropdownSubmenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Business Card</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/get/product">Business Cards</a></li>
+            </ul>
+        </li>
+        <li class="dropdown-submenu" id="dropdownSubmenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Stationary Items</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/envelope">Envelope</a></li>
+              <li><a class="dropdown-item" href="/money-receipt">Money receipt</a></li>
+              <li><a class="dropdown-item" href="/note-pad">Note pad</a></li>
+              <li><a class="dropdown-item" href="/register">Register</a></li>
+              <li><a class="dropdown-item" href="/memo">Memo</a></li>
+            </ul>
+        </li>
+        <li class="dropdown-submenu" id="dropdownSubmenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Marketing Materials</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/magazine">Magazine/brushier/leaflet</a></li>
+              <li><a class="dropdown-item" href="/hangtag">Hangtag/waist tag/price tag</a></li>
+              <li><a class="dropdown-item" href="/pvc">PVC</a></li>
+              <li><a class="dropdown-item" href="/file-folder">File folder</a></li>
+            </ul>
+        </li>
+        <li class="dropdown-submenu" id="dropdownSubmenu">
+          <a class="dropdown-item dropdown-toggle" href="#">Packaging</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/calendar">Calendar(wall/desk/pocket)</a></li>
+              <li><a class="dropdown-item" href="/dairy">Dairy</a></li>
+              <li><a class="dropdown-item" href="/voucher">Voucher</a></li>
+              <li><a class="dropdown-item" href="/tissue-bag">Tissue bag</a></li>
+              <li><a class="dropdown-item" href="/tissue-box">Tissue box</a></li>
+            </ul>
+        </li>
+        <li><a class="dropdown-item" href="/shop">View All Products</a></li>
     </ul>
   </div>
     </li>
